@@ -179,19 +179,23 @@ rating:5,
 export const navLinks = [
 {
     name:"Home",
-    link:"/"
+    link:"/",
+    id:"1"
 },
 {
     name:"Place to stay",
-    link:"/placetostay"
+    link:"/placetostay",
+    id:"2"
 },
 {
     name:"NFTs",
-    link:"/"
+    link:"/",
+    id:"3"
 },
 {
     name:"Community",
-    link:"/"
+    link:"/",
+    id:"4"
 }
 ,
 ]
