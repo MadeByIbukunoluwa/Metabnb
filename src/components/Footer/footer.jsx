@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from "./footer.modules.css"
+import classes from "./footer.module.css"
 
 
 

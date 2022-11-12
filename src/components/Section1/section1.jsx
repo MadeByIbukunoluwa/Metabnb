@@ -1,12 +1,12 @@
 import React from 'react'
-import classes from "./section1.modules.css"
+import classes from "./section1.module.css"
 
 
 
 
 function Section1 () {
   return (
-    <div>Section1</div>
+    <section>Section1</section>
   )
 }
 

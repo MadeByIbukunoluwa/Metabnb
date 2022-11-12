@@ -5,6 +5,7 @@
     max-width:1240px;
     margin:0 auto;
     display:flex;
+    place-items: center;
     padding-left:100px;
     padding-right:100px;
     padding-top:43px;
@@ -13,5 +14,10 @@
 
 .navlinks {
     display: flex;
-    
+
+}
+
+.logo {
+    display: flex;
+    place-items:center;
 }
