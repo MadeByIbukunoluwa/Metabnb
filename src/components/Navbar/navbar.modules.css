@@ -1,0 +1,17 @@
+
+
+
+.nav {
+    max-width:1240px;
+    margin:0 auto;
+    display:flex;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:43px;
+    border:1px solid red;
+}
+
+.navlinks {
+    display: flex;
+    
+}

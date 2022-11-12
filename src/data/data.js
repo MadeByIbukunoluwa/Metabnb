@@ -1,6 +1,6 @@
 
 
-const data = [
+export const data = [
     {
     image:"",
     name:"Desert King",
@@ -174,3 +174,25 @@ rating:5,
    ,
 
 ]
+
+
+export const navLinks = [
+{
+    name:"Home",
+    link:"/"
+},
+{
+    name:"Place to stay",
+    link:"/placetostay"
+},
+{
+    name:"NFTs",
+    link:"/"
+},
+{
+    name:"Community",
+    link:"/"
+}
+,
+]
+
