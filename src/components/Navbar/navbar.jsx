@@ -4,7 +4,7 @@ import {navLinks} from "../../data/data"
 
 
 
-function navbar() {
+function Navbar () {
   return (
      <nav className={classes.nav}>
         <img src="" alt="" />
@@ -17,4 +17,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
