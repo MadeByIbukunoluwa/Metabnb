@@ -11,20 +11,23 @@ export const AppContext = createContext(()=> {})
 
     function App() {
       const [showModal, setShowModal] = useState(false)
-        function toggleModal () {
-            setShowModal(() => !showModal) 
+        function openModal () {
+            setShowModal(true) 
+        }
+        function closeModal () {
+            setShowModal(false) 
         }
               return (
-                <>
-                <AppContext.Provider value={toggleModal}>
-                      <Hero/>
-                      {showModal && <Modal/>}
-                      <Banner/>
-                      <Section1/>
-                      <Section2/>
-                      <Footer/>
+                <AppContext.Provider value={{openModal,closeModal}}>
+                    <div className='app'>
+                          <Hero/>
+                          {showModal && <Modal/>}
+                          <Banner/>
+                          <Section1/>
+                          <Section2/>
+                          <Footer/>
+                    </div>
                 </AppContext.Provider>
-                </>
               )
             }
 

@@ -6,10 +6,10 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: rgb(0, 0, 0, 0.001);
+        background: rgb(0, 0, 0, 0.3);
         z-index: 1000;
 }
 
 .menu {
-    
+
 }

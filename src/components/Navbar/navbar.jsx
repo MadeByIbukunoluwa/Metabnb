@@ -6,7 +6,7 @@ import MetaBnbLogo from "../../assets/icons/Metabnb-logo-colored.svg";
 import { AppContext } from '../../pages/App/App';
 
 function Navbar () {
-    const toggleModal = useContext(AppContext)
+    const {openModal} = useContext(AppContext)
   return (
     <nav className={classes.nav}>
       <div className={classes.logo}>
@@ -18,7 +18,7 @@ function Navbar () {
           return <a key = {id}href={link}> {name}</a>;
         })}
       </div>
-      <button className={classes.navbutton} onClick = {toggleModal}>Connect Wallet</button>
+      <button className={classes.navbutton} onClick = {openModal}>Connect Wallet</button>
     </nav>
   );
 }
