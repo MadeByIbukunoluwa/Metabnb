@@ -200,3 +200,19 @@ export const navLinks = [
 ,
 ]
 
+export const headerText = [
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

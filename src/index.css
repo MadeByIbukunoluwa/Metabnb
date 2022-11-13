@@ -1,0 +1,37 @@
+
+/* its until it reaches 1440px that the centering margin will be applied because thats the maximum width  */
+
+/*  we try to centralize the content with display:flex, but the problem is that it sucks up all space on both sides in order to centralize it  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* font-size: 16px; */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    font-family:'Red Rose', cursive , sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    color: inherit;
+}
+#root {
+        width:100vw;
+       display: flex;
+       justify-content: center;
+}
