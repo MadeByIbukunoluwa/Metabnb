@@ -6,6 +6,7 @@ import Section1 from '../../components/Section1/section1'
 import Section2 from '../../components/Section2/section2'
 import Footer from '../../components/Footer/footer'
 import Modal from '../../components/Modal/modal'
+import Navbar from '../../components/Navbar/navbar'
 
 export const AppContext = createContext(()=> {})
 

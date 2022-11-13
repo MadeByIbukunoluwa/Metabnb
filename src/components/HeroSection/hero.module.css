@@ -4,6 +4,7 @@
     padding-right:6.25em;
     padding-top:2.879375em;
     border:1px solid red;
+
    
 }
 
@@ -14,8 +15,13 @@ max-width: 690px;
 width:100%;
 }
 .hero_maincontainer{
+    max-width:1240px;
+    display: flex;
     margin-top: 6.25em;
     border: 1px solid red;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
  .hero_maintext {
     font-weight:700;
@@ -36,17 +42,17 @@ width:100%;
     color: #434343;
     border:1px solid red;
  }
+ .hero_input {
+    border-radius: .375rem;
+    border: solid 1px #e5e7eb;
+    display: flex;
+ }
+ .hero_input {
+
+ }
  .image_container {
 
  }
-  .image_wrapper1 {
-    display: flex;
-     flex-direction: column;
-  }
-.image_wrapper2 {
-    display:flex;
-    flex-direction:column;
-}
 
 
 

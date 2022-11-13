@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/navbar'
 import classes from "./hero.module.css"
-
+import HeroImage from '../../assets/images/Hero-image.svg'
 
 
 
@@ -10,7 +10,9 @@ function Hero () {
   return (
     <section className={classes.hero}>
       <Navbar />
+
       <div className={classes.hero_maincontainer}>
+
         <div className={classes.hero_textcontainer}>
           <div className={classes.hero_maintext}>
             <p>
@@ -25,23 +27,17 @@ function Hero () {
               metaverse, get a chance to turn your imagination to reality at
               your comfort zone
             </p>
+          <form class={classes.hero_input}>
+            <input type="text" />
+            <button type="submit"> </button>
+          </form>
           </div>
 
-          <div>
-            <form action=""></form>
-          </div>
+          
         </div>
-
-        <div className={classes.image_container}>
-          <div className={classes.image_wrapper1}>
-            <img src="" alt="" />
-            <img src="" alt="" />
+          <div className={classes.image_container}>
+            <img src={HeroImage} alt="hero-image" />
           </div>
-          <div className={classes.image_wrapper2}>
-            <img src="" alt="" />
-            <img src="" alt="" />
-          </div>
-        </div>
       </div>
     </section>
   );
