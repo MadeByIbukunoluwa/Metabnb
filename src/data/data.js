@@ -2,7 +2,7 @@
 
 export const data = [
     {
-    image:"",
+    image:"1",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -12,7 +12,7 @@ export const data = [
     }
    ,
     {
-    image:"",
+    image:"2",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -22,7 +22,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"3",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -32,7 +32,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"4",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -42,7 +42,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"5",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -52,7 +52,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"6",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -62,7 +62,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"7",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -72,7 +72,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"8",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -82,7 +82,7 @@ rating:5,
 }
    ,
     {
-    image:"",
+    image:"9",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -92,7 +92,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"10",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -102,7 +102,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"11",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -112,7 +112,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"12",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -123,7 +123,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"13",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -133,7 +133,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"14",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -143,7 +143,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"15",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -153,7 +153,7 @@ rating:5,
     }
    ,
     {
-    image:"",
+    image:"16",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -162,15 +162,6 @@ rating:5,
     rating:5,
     }
    ,
-    {
-    image:"",
-    name:"Desert King",
-    place:"",
-    price:"1MBT per night",
-    distance:"2345km",
-    availability:"available for 2 weeks stay",
-    rating:5,
-    }
    ,
 
 ]
@@ -201,7 +192,7 @@ export const navLinks = [
 ]
 
 export const headerText = [
-    
+
 
 
 
