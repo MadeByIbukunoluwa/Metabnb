@@ -13,14 +13,17 @@ function Card({ image,name,price, distance, availability,rating }) {
         <img src={image} alt="" />
       </div>
       <div className={classes.details}>
+        
         <div className={classes.text_container1}>
           <span className={classes.text_small}>{name}</span>
           <h1 className={classes.text_small}>{price}</h1>
         </div>
+
         <div className={classes.text_container2}>
           <span className={classes.text_small}>{distance}</span>
           <span className={classes.text_small}>{availability}</span>
         </div>
+
         <div className={classes.stars}>
           {[...Array(rating)].map((value = undefined) => {
             return (

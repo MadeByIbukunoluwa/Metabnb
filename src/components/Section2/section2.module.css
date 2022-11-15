@@ -2,23 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        border: 1px solid #000000;
 }
 
 .section2_wrapper {
     max-width: 1280px;
     width: 100%;
     border: 1px solid red;
-}
+    display: flex;
 
+}
+.section2_maintext {
+    padding:100px;
+    text-align: left;
+    color:#fff;
+}
 .section2_imagecontainer {
     
 }
 
+.section2_headertext { 
 
-.section2_maintext {
+
+
+
+
+}
+
+.section2_headertext {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0em;
-    text-align: center;
 }

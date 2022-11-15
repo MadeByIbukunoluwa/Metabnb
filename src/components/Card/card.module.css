@@ -9,7 +9,10 @@ padding:16px;
 }
 
 .details {
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 3em;
 }
 .card_container {
 
@@ -25,11 +28,14 @@ padding:16px;
 
 .text_container1 {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+   
 }
 
 .text_container2 {
-
+     display: flex;
+     justify-content: space-between;
+    
 }
 
 
