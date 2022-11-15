@@ -20,7 +20,7 @@ function Section1 () {
             ({ imageno, name, place, price, distance, availability, rating }) => {
               return (
                 <Card
-                  image={`/assets/images/image${imageno}.svg`}
+                  image={`/assets/images/image${imageno}.png`}
                   name={name}
                   place={place}
                   price={price}
@@ -37,7 +37,7 @@ function Section1 () {
             ({ imageno, name, place, price, distance, availability, rating }) => {
               return (
                 <Card
-                  image={`/assets/images/image${imageno}.svg`}
+                  image={`/assets/images/image${imageno}.png`}
                   name={name}
                   place={place}
                   price={price}

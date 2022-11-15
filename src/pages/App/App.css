@@ -8,10 +8,10 @@
       width: 100%;
       min-height: 100vh;
 }
-
-.show {
-  display: flex;
+.app img {
+  display: block;
 }
+
 
 .overlay {
   position: absolute;
@@ -27,3 +27,4 @@
   height: 100%;
   cursor: default;
 }
+

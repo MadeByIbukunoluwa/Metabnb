@@ -195,18 +195,13 @@ export const headerText = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ]
+
+
+
+
+
+
 
 export const footerLinks = [
     {
@@ -236,20 +231,20 @@ export const footerLinks = [
             "Contact Us"
         ]
     },
-
-    // export const filterHeader = [
-
-    // ]
-
-
-
-
-
-
-
-
-
-
-
-
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const filterHeader = [
+
+// ]

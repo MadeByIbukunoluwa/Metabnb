@@ -27,8 +27,8 @@ function Hero () {
               your comfort zone
             </p>
           <form className={classes.hero_input}>
-            <input type="text" />
-            <button type="submit"> </button>
+            <input type="text" placeholder='search for location' />
+            <button type="submit"> Search</button>
           </form>
           </div>
 

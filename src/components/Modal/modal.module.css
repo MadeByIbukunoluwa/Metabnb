@@ -4,18 +4,18 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
-        height: 100vh;
+        width: 580%;
+        height: 580%;
         background: rgb(0, 0, 0, 0.3);
         z-index: 1000;
 }
 
 .menu {
     position:absolute;
-    top: 50%;
+    top:50%;
     left:50%;
-    /* transform:translate(-50%,-50%); */
-    /* width: 90%; */
+    transform:translate(-50%,-50%);
+    width: 50%;
     border-radius: 14px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 5000;
