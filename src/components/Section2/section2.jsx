@@ -18,7 +18,7 @@ function Section2 () {
         </div>
 
         <div className={classes.section2_imagescontainer}>
-          <img src="/assets/images/Section-2-Image.svg" />
+          <img src="/assets/images/Section-2-image.png" />
         </div>
       </div>
     </section>

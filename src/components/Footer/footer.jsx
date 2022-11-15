@@ -9,21 +9,18 @@ function Footer() {
   return (
     <section className={classes.footer_container}>
       <div className={classes.footer_wrapper}>
-
         <div className={classes.footerinfo_container}>
-
           <div className={classes.logo_container}>
-             
+            <img src="/assets/icons/Metabnb-white-logo.svg" alt="" />
           </div>
 
           <div className={classes.icons_container}>
-            <img src="" alt="" />
+            <img src="/assets/icons/Facebook.svg" alt="Facebook-icon" />
+            <img src="/assets/icons/instagram.svg" alt="instagram-icon" />
+            <img src="/assets/icons/twitter.svg" alt="twitter-icon" />
           </div>
 
-          <div className={classes.copyright}>
-
-          </div>
-
+          <div className={classes.copyright}>&copy; Metabnb</div>
         </div>
         {footerLinks.map(({ name, links }) => {
           return (
@@ -31,7 +28,6 @@ function Footer() {
               <div>
                 <h1>{name}</h1>
               </div>
-
               {links.map((item) => {
                 return <a href="">{item}</a>;
               })}

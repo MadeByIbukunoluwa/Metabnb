@@ -35,7 +35,7 @@ function Hero () {
           
         </div>
           <div className={classes.image_container}>
-            <img src='/assets/images/Hero-image.svg' alt="hero-image" />
+            <img src='/assets/images/Hero-image.png' alt="hero-image" />
           </div>
       </div>
     </section>
