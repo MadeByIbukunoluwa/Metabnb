@@ -1,8 +1,9 @@
 import React from 'react'
 import classes from './banner.module.css'
-// import MbToken from '../../assets/images/MbToken.svg'
-// import Metamask from '../../assets/images/MetaMask.svg'
-// import OpenSea from '../../assets/images/OpenSea.svg'
+
+
+
+
 function Banner() {
   return (
     <section className={classes.banner}>

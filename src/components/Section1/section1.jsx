@@ -5,10 +5,17 @@ import Card from '../Card/card';
 
 function Section1 () {
   return (
-    <div className={classes.section1_container}>
+    <section className={classes.section1_container}>
+
       <div className={classes.section1_wrapper}>
-        <p className={classes.main_text}>Inspiration for the adventure</p>
-        <div className={classes.section_cards_container}>
+
+        <div>
+             <p className={classes.section1_maintext}>
+               Inspiration for the adventure
+             </p>
+        </div>
+
+        <div className={classes.section1_cardscontainer}>
           {data.slice(4,8).map(
             ({ imageno, name, place, price, distance, availability, rating }) => {
               return (
@@ -43,8 +50,10 @@ function Section1 () {
             }
           )}
         </div>
+
       </div>
-    </div>
+
+    </section>
   );
 }
 
