@@ -10,12 +10,14 @@ function Sidebar() {
     const { isDrawerOpen, setIsDrawerOpen,openModal } = useContext(AppContext);
   return (
     <Drawer
+    sx={{
+         width:"50vw"
+    }}
       anchor="right"
       open={isDrawerOpen}
       onClose={() => setIsDrawerOpen(false)}
     >
       <nav className={classes.sidebar_nav}>
-        <div className={classes.navlinks}>
           {navLinks.map(({ name, link, id }) => {
             return (
               <Link key={id} to={link}>
@@ -23,7 +25,6 @@ function Sidebar() {
               </Link>
             );
           })}
-        </div>
         <Button onClick={openModal}>
          Connect Wallet 
         </Button>

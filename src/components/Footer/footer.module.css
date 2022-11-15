@@ -2,6 +2,7 @@
 .footer_wrapper {
     display: grid;
       grid-template-columns: repeat(4, 1fr);
+      justify-items: end;
       align-items: center;
       gap:5em;
     width: 100%;
@@ -15,23 +16,19 @@
     justify-content: center;
 }
 .footerinfo_container {
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.logo_container {
+    transform: scale(0.9);
+}
 .icons_container {
-
+    display: flex;
+    justify-content: space-between;
 }
+
 .links_container {
     display: flex;
     flex-direction:column;

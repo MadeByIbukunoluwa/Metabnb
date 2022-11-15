@@ -1,3 +1,11 @@
 
 
 
+.sidebar_nav {          
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:50px;
+    height:300px;
+}
+
