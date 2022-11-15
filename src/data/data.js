@@ -2,7 +2,7 @@
 
 export const data = [
     {
-    image:"1",
+    imageno:"1",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -12,7 +12,7 @@ export const data = [
     }
    ,
     {
-    image:"2",
+    imageno:"2",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -22,7 +22,7 @@ rating:5,
     }
    ,
     {
-    image:"3",
+    imageno:"3",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -32,7 +32,7 @@ rating:5,
     }
    ,
     {
-    image:"4",
+    imageno:"4",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -42,7 +42,7 @@ rating:5,
     }
    ,
     {
-    image:"5",
+    imageno:"5",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -52,7 +52,7 @@ rating:5,
     }
    ,
     {
-    image:"6",
+    imageno:"6",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -62,7 +62,7 @@ rating:5,
     }
    ,
     {
-    image:"7",
+    imageno:"7",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -72,7 +72,7 @@ rating:5,
     }
    ,
     {
-    image:"8",
+    imageno:"8",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -82,7 +82,7 @@ rating:5,
 }
    ,
     {
-    image:"9",
+    imageno:"9",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -92,7 +92,7 @@ rating:5,
     }
    ,
     {
-    image:"10",
+    imageno:"10",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -102,7 +102,7 @@ rating:5,
     }
    ,
     {
-    image:"11",
+    imageno:"11",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -112,7 +112,7 @@ rating:5,
     }
    ,
     {
-    image:"12",
+    imageno:"12",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -123,7 +123,7 @@ rating:5,
     }
    ,
     {
-    image:"13",
+    imageno:"13",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -133,7 +133,7 @@ rating:5,
     }
    ,
     {
-    image:"14",
+    imageno:"14",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -143,7 +143,7 @@ rating:5,
     }
    ,
     {
-    image:"15",
+    imageno:"15",
     name:"Desert King",
     place:"",
     price:"1MBT per night",
@@ -153,7 +153,7 @@ rating:5,
     }
    ,
     {
-    image:"16",
+    imageno:"16",
     name:"Desert King",
     place:"",
     price:"1MBT per night",

@@ -1,6 +1,6 @@
 import { useContext,Fragment } from "react";
 import React from "react-dom";
-import closeicon from '../../assets/icons/close-icon.svg'
+// import closeicon from '../../assets/icons/close-icon.svg'
 import { AppContext } from "../../pages/App/App";
 
 
@@ -16,7 +16,7 @@ const  Menu = () => {
     return (
         <div className="menu">
             <div>
-                <img src={closeicon} alt="" onClick={closeModal}/>
+                <img src='/assets/icons/close-icon.svg' alt="" onClick={closeModal}/>
             </div>
         </div>
     )

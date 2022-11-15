@@ -19,13 +19,14 @@ function PlaceToStay() {
         {
             data.map(({image,name,place,price,distance,availability,rating})=> {
                 return <Card 
-                    imagepath = {`image${image}`}
+                    imagepath = {`${image}`}
                     name = {name}
                     place ={place}
                     price ={price}
                     distance = {distance}
                     availability = {availability}
                     rating = {rating}
+                    key = {Math.random() * 10000}
                 />
             })
         }

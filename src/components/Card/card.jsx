@@ -2,15 +2,15 @@
 
 import React from 'react'
 import classes from './card.module.css'
-import StarIcon from '../../assets/icons/Star.svg'
 
 
 
-function Card({ imagepath,name,price, distance, availability,rating }) {
+
+function Card({ image,name,price, distance, availability,rating }) {
   return (
     <div className={classes.card_container}>
       <div className={classes.image_container}>
-        <img src={imagepath} alt="" />
+        <img src={image} alt="" />
       </div>
       <div className={classes.details}>
         <div className={classes.text_container1}>
@@ -32,7 +32,9 @@ function Card({ imagepath,name,price, distance, availability,rating }) {
         <div className={classes.stars}>
           {
             [...Array(rating)].map((value = undefined)=> {
-              return <img src = {StarIcon} key = {Math.random() * 10000} />
+              return (
+                <img src="/assets/icons/Star.svg" key={Math.random() * 10000} />
+              );
             })
           }
         </div>
