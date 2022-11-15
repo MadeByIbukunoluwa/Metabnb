@@ -8,14 +8,13 @@ function Section2 () {
     <section className={classes.section2_container}>
       <div className={classes.section2_wrapper}>
         <div className={classes.section2_maintext}>
-          
           <p className={classes.section2_headertext}>MetaBnb NFTs</p>
           <p className={classes.section2_subtext}>
             Discover our NFT gift cards collection. Loyal customers gets amazing
             gift cards which are traded as NFTs. These NFTs gives our cutomer
             access to loads of our exclusive services.
           </p>
-          <button>Learn More</button>
+          <button >Learn More</button>
         </div>
 
         <div className={classes.section2_imagescontainer}>

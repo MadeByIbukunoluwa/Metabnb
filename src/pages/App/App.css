@@ -4,7 +4,7 @@
       color-scheme: light dark;
       color: rgba(0, 0, 0, 0.87);
       box-sizing: border-box;
-      max-width: 1440px;
+      /* max-width: 1440px; */
       width: 100%;
       min-height: 100vh;
 }

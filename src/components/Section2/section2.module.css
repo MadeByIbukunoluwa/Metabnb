@@ -18,6 +18,26 @@
     text-align: left;
     color:#fff;
 }
+
+.section2_maintext button {
+    padding: 14px 33px;
+    color:#A02279;
+    outline: none;
+    margin-top:57.55px;
+    cursor:pointer;
+}
+
+.section2_maintext button:hover {
+   transform: scale(1.1);
+}
+
+
+.section2_subtext {
+font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
 .section2_imagecontainer {
     
 }
