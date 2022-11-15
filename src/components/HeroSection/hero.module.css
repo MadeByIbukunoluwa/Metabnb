@@ -7,6 +7,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-bottom:1em ;
 }
 
 .hero_textcontainer {
@@ -15,7 +16,7 @@ padding-bottom: 1.875em;
 max-width: 690px;
 width:100%;
 }
-.hero_maincontainer{
+.hero_maincontainer {
     max-width:1240px;
     display: flex;
     margin-top: 6.25em;
@@ -83,8 +84,3 @@ width:100%;
 
  }
 
-/* 
-
-@media screen and (max-width:){
-   
-} */

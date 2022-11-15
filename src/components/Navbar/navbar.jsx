@@ -30,7 +30,11 @@ function Navbar () {
           );
         })}
       </div>
-      <Button onClick={openModal}>Connect Wallet</Button>
+
+      <Button className = {classes.walletbutton} onClick={openModal}>
+        Connect Wallet
+        </Button>
+
       <img
         src="/assets/icons/menu.svg"
         alt=""

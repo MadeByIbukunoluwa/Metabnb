@@ -31,3 +31,16 @@ img {
     width:100%;
     max-width:516px;
 }
+
+
+
+
+@media screen and (max-width:600px) {
+    .navlinks {
+        display:none;
+    }
+    .walletbutton {
+        display: none;
+    }
+}
+    

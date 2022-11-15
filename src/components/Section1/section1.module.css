@@ -15,7 +15,7 @@ border:1px solid red;
 .section1_cardscontainer {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,2fr);
+    /* grid-template-rows: repeat(1,2fr); */
     gap:2em;
     border: 1px solid red;
 }
@@ -34,3 +34,9 @@ border:1px solid red;
      text-align:center;
 }
 
+@media screen and (max-width:1000px) {
+    .section1_cardscontainer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+}

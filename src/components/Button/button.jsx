@@ -5,9 +5,9 @@ import React from 'react'
 import classes from './button.module.css'
 
 
-function Button({children,onClick}) {
+function Button({children,onClick,className}) {
   return (
-     <button className={classes.button} onClick = {onClick}>
+     <button className={`${classes.button} ${className}`} onClick = {onClick}>
         {children}
     </button>
 
