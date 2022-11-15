@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar/navbar'
 import { data } from '../../data/data'
 import classes from './placeToStay.module.css'
 import Card from '../../components/Card/card'
-
+// import Footer from '../../components/Footer/footer'
 
 
 
@@ -13,9 +13,9 @@ import Card from '../../components/Card/card'
 function PlaceToStay() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <section className={classes.main_container}>
-        <FilterPanel />
+        {/* <FilterPanel /> */}
         {data.map(
             ({
               imageno,
@@ -28,7 +28,7 @@ function PlaceToStay() {
             }) => {
               return (
                 <Card
-                  image={`/assets/images/image${imageno}.svg`}
+                  image={`/assets/images/image${imageno}.png`}
                   name={name}
                   place={place}
                   price={price}
@@ -41,7 +41,7 @@ function PlaceToStay() {
             }
           )}
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

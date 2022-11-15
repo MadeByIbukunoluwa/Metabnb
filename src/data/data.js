@@ -244,7 +244,50 @@ export const footerLinks = [
 
 
 
+export const options = [
+  {
+    label: "Restaurant",
 
-// export const filterHeader = [
+    value: "restaurant",
+  },
 
-// ]
+  {
+    label: "Cottage",
+
+    value: "cottage",
+  },
+
+  {
+    label: "Castle",
+
+    value: "castle",
+  },
+
+  {
+    label: "Fantasy City",
+
+    value: "fantasy city",
+  },
+  {
+    label: "Beach",
+
+    value: "beach",
+  },
+  {
+    label: "Cabins",
+
+    value: "cabins",
+  },
+  {
+    label: "Off-Grid",
+
+    value: "off-grid",
+  },
+  {
+    label: "Farm",
+
+    value: "farm",
+  },
+];
+
+

@@ -3,8 +3,11 @@ import classes from "./navbar.module.css"
 import {navLinks} from "../../data/data"
 import { AppContext } from '../../pages/App/App';
 import {Link} from 'react-router-dom'
+import Button from '../Button/button';
+
+
 function Navbar () {
-    const {openModal} = useContext(AppContext)
+    const { openModal, setIsDrawerOpen } = useContext(AppContext);
   return (
     <nav className={classes.nav}>
       <div className={classes.logo}>
@@ -12,8 +15,12 @@ function Navbar () {
           src="/assets/icons/Metabnb-home-colored.svg"
           alt="Meta-bnb-home-icon"
         />
-        <img src='/assets/icons/Metabnb-logo-colored.svg' alt="Meta-bnb-logo-icon" />
+        <img
+          src="/assets/icons/Metabnb-logo-colored.svg"
+          alt="Meta-bnb-logo-icon"
+        />
       </div>
+
       <div className={classes.navlinks}>
         {navLinks.map(({ name, link, id }) => {
           return (
@@ -23,9 +30,12 @@ function Navbar () {
           );
         })}
       </div>
-      <button className={classes.navbutton} onClick={openModal}>
-        Connect Wallet
-      </button>
+      <Button onClick={openModal}>Connect Wallet</Button>
+      <img
+        src="/assets/icons/menu.svg"
+        alt=""
+        onClick={() => setIsDrawerOpen(true)}
+      />
     </nav>
   );
 }

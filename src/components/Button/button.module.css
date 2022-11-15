@@ -1,0 +1,28 @@
+
+.button {
+    /* width: 100%; */
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    outline: none;
+    /* max-width: 117px; */
+    /* height:20px; */
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    /* padding: 10px 16px; */
+    text-align: center;
+    transition: transform 100ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}

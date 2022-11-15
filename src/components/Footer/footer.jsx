@@ -13,6 +13,7 @@ function Footer() {
 
 
         <div className={classes.footerinfo_container}>
+            
           <div className={classes.logo_container}>
             <img src="/assets/icons/Metabnb-white-logo.svg" alt="" />
           </div>
