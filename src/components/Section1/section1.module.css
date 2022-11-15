@@ -16,12 +16,16 @@ border:1px solid red;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1,2fr);
     gap:2em;
-    margin-top: 6.25em;
     border: 1px solid red;
 }
 
 
 .section1_maintext {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-top:39px;
+    padding-bottom:39px;
      font-size: 48px;
      font-weight: 700;
      line-height: 60px;

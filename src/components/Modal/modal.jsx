@@ -15,7 +15,7 @@ const  Menu = () => {
     return (
         <div className={classes.menu}>
             <div>
-                <img src='/assets/images/modal.svg' alt="modal" onClick={closeModal}/>
+                <img src='/assets/icons/close-icon.svg' alt="modal" onClick={closeModal}/>
             </div>
         </div>
     )

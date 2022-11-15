@@ -6,6 +6,10 @@ import classes from "./hero.module.css"
 
 
 function Hero () {
+  function handleSearchInput (event) {
+      event.preventDefault()
+      
+  }
   return (
     <section className={classes.hero}>
       <Navbar />
@@ -13,10 +17,10 @@ function Hero () {
       <div className={classes.hero_maincontainer}>
 
         <div className={classes.hero_textcontainer}>
+
           <div className={classes.hero_maintext}>
             <p>
-              Rent a <span>Place</span> away from <span>Home</span> in the{" "}
-              <span>Metaverse</span>
+              Rent a <span>Place</span> away from <span>Home</span> in the <span>Metaverse</span>
             </p>
           </div>
 
@@ -26,10 +30,12 @@ function Hero () {
               metaverse, get a chance to turn your imagination to reality at
               your comfort zone
             </p>
-          <form className={classes.hero_input}>
-            <input type="text" placeholder='search for location' />
+
+          <form className={classes.hero_input} onSubmit= {() => handleSearchInput()}>
+            <input required type="text" placeholder='search for location' />
             <button type="submit"> Search</button>
           </form>
+
           </div>
 
           

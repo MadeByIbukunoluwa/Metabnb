@@ -11,7 +11,7 @@ function Footer() {
       <div className={classes.footer_wrapper}>
 
 
-        
+
         <div className={classes.footerinfo_container}>
           <div className={classes.logo_container}>
             <img src="/assets/icons/Metabnb-white-logo.svg" alt="" />
@@ -29,11 +29,15 @@ function Footer() {
         {footerLinks.map(({ name, links }) => {
           return (
             <div className={classes.links_container}>
-              <div>
+              <div key = {Math.random() * 1111111}>
                 <h1>{name}</h1>
               </div>
               {links.map((item) => {
-                return <a href="">{item}</a>;
+                return (
+                  <span key = {Math.random() * 100000}>
+                    <a href="">{item}</a>
+                  </span>
+                );
               })}
             </div>
           );
