@@ -1,31 +1,25 @@
 import { useContext,Fragment } from "react";
 import React from "react-dom";
-// import closeicon from '../../assets/icons/close-icon.svg'
 import { AppContext } from "../../pages/App/App";
-
+import classes from './modal.module.css'
 
 const Backdrop = () => {
-    const { closeModal } = useContext(AppContext);
+            const { closeModal } = useContext(AppContext);
     return (
-        <div onClick = {closeModal} className='backdrop'></div>
+        <div onClick = {closeModal} className={classes.backdrop}></div>
     )
 }
 
 const  Menu = () => {
     const {closeModal} = useContext(AppContext)
     return (
-        <div className="menu">
+        <div className={classes.menu}>
             <div>
-                <img src='/assets/icons/close-icon.svg' alt="" onClick={closeModal}/>
+                <img src='/assets/images/modal.svg' alt="modal" onClick={closeModal}/>
             </div>
         </div>
     )
 }
-
-
-
-
-
 
 const Modal = () => {
   return (

@@ -13,27 +13,37 @@ import Card from '../../components/Card/card'
 function PlaceToStay() {
   return (
     <>
-    <Navbar/>
-    <section className={classes.main_container}>
-        <FilterPanel/>
-        {
-            data.map(({image,name,place,price,distance,availability,rating})=> {
-                return <Card 
-                    imagepath = {`${image}`}
-                    name = {name}
-                    place ={place}
-                    price ={price}
-                    distance = {distance}
-                    availability = {availability}
-                    rating = {rating}
-                    key = {Math.random() * 10000}
+      <Navbar />
+      <section className={classes.main_container}>
+        <FilterPanel />
+        {data.map(
+            ({
+              imageno,
+              name,
+              place,
+              price,
+              distance,
+              availability,
+              rating,
+            }) => {
+              return (
+                <Card
+                  image={`/assets/images/image${imageno}.svg`}
+                  name={name}
+                  place={place}
+                  price={price}
+                  distance={distance}
+                  availability={availability}
+                  rating={rating}
+                  key={Math.random() * 10000}
                 />
-            })
-        }
-    </section>
-    <Footer/>
+              );
+            }
+          )}
+      </section>
+      <Footer />
     </>
-  )
+  );
 }
 
 export default PlaceToStay

@@ -207,3 +207,48 @@ export const headerText = [
 
 
 ]
+
+export const footerLinks = [
+    {
+        name:"Community",
+        links:[
+            "NFT",
+            "Tokens",
+            "LandLords",
+            "Discord"
+        ]
+    },
+    {
+        name:"Places",
+        links:[
+            "Castles",
+            "Farms",
+            "Beach",
+            "Learn More"
+        ]
+    },
+    {
+        name:"About Us",
+        links:[
+            "Road Map",
+            "Creators",
+            "Career",
+            "Contact Us"
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

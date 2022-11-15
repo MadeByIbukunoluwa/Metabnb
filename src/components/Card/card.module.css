@@ -15,8 +15,12 @@ padding:16px;
 
 }
 
-
-
+.text_small {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+}
 
 
 .text_container1 {
@@ -31,5 +35,4 @@ padding:16px;
 
 .stars {
     display: flex;
-    
 }
