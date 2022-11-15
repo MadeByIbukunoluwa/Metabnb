@@ -3,7 +3,9 @@
 
 
 .card_container {
-
+border: 1px solid #D7D7D7;
+border-radius: 15px;
+padding:16px;
 }
 
 .details {
@@ -13,14 +15,21 @@
 
 }
 
-.image_container1 {
-    
+
+
+
+
+.text_container1 {
+    display: flex;
+    /* justify-content: space-between; */
 }
 
-.image_container2 {
+.text_container2 {
 
 }
+
 
 .stars {
+    display: flex;
     
 }

@@ -2,12 +2,11 @@
 .section1_container {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .section1_wrapper {
-max-width: 1240px;
+max-width: 1280px;
 width:100%;
 border:1px solid red;
 }
@@ -15,8 +14,8 @@ border:1px solid red;
 .section1_cardscontainer {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    /* grid-template-rows: repeat(1,2fr); */
-    
+    grid-template-rows: repeat(1,2fr);
+    gap:2em;
     margin-top: 6.25em;
     border: 1px solid red;
 }
