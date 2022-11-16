@@ -7,7 +7,7 @@ import Section2 from '../../components/Section2/section2'
 import Footer from '../../components/Footer/footer'
 import Modal from '../../components/Modal/modal'
 import Sidebar from '../../components/SideBar/sidebar'
-
+import { Outlet } from 'react-router-dom'
 
 export const AppContext = createContext(()=> {})
 

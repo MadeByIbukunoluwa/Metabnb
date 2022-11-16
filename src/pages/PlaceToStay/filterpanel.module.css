@@ -10,6 +10,7 @@ margin-top:2em;
 .filter_options {
 display: flex;
 justify-content: space-between;
+align-items: center;
 width:80%;
 flex-wrap: wrap;
 gap:2em;
@@ -18,7 +19,25 @@ gap:2em;
 
 
 .filter_button {
-display: flex;
-align-items: center;
-align-content: center;
+        outline: none;
+        border: 1px solid black;
+        background: #fff;
+        border-radius: 3px;
+        /* text-align: center; */ 
+        cursor: pointer;
+       display: flex;
+       align-items: center;
+       max-height: fit-content;
+       justify-content: center;
+        font-weight: 400;
+        /* font-size: 16px; */
+        /* line-height: 20px; */
+        outline: none;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        text-align: center;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
 }
