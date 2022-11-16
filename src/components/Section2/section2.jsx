@@ -7,6 +7,7 @@ function Section2 () {
   return (
     <section className={classes.section2_container}>
       <div className={classes.section2_wrapper}>
+        
         <div className={classes.section2_maintext}>
           <p className={classes.section2_headertext}>MetaBnb NFTs</p>
           <p className={classes.section2_subtext}>
@@ -20,6 +21,7 @@ function Section2 () {
         <div className={classes.section2_imagescontainer}>
           <img src="/assets/images/Section-2-image.png" />
         </div>
+
       </div>
     </section>
   );

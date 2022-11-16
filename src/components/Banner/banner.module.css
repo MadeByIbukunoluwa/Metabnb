@@ -13,5 +13,20 @@
      max-width:1240px;
      justify-content: space-between;
      align-items: center;
+}
+
+@media screen and (max-width:1000px) {
+    img {
+        transform: scale(0.7);
+    }
+   img:nth-child(3) {
+    display: none;
+   }
+   .logo_container {
+       justify-content: space-around;
+       align-items: center;
+   }
 
 }
+
+

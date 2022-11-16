@@ -21,8 +21,8 @@
     display: flex;
     place-items:center;
 }
-img {
-    cursor: pointer;
+.mobilemenu {
+   display: none ;
 }
 .navlinks {
     display: flex;
@@ -32,15 +32,16 @@ img {
     max-width:516px;
 }
 
-
-
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
     .navlinks {
         display:none;
     }
     .walletbutton {
-        display: none;
+        display: none !important;
+    }
+    i.mobilemenu {
+        cursor: pointer;
+        display: block !important;
     }
 }
     

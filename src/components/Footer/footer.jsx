@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from "./footer.module.css"
 import { footerLinks } from '../../data/data'
-
+import {BsTwitter} from 'react-icons/bs'
 
 
 
@@ -20,7 +20,8 @@ function Footer() {
           <div className={classes.icons_container}>
             <img src="/assets/icons/Facebook.svg" alt="Facebook-icon" />
             <img src="/assets/icons/instagram-icon.svg" alt="instagram-icon" /> 
-            <img src="/assets/icons/twitter.svg" alt="twitter-icon" />
+            <BsTwitter/>
+            {/* <img src="/assets/icons/twitter.svg" alt="twitter-icon" /> */}
           </div>
           <div className={classes.copyright}>&copy; Metabnb</div>
         </div>

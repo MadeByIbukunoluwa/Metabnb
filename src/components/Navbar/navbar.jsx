@@ -31,11 +31,12 @@ function Navbar () {
         })}
       </div>
 
-      <Button className = {classes.walletbutton} onClick={openModal}>
+      <Button className = {classes.walletbutton} style = {{}}onClick={openModal}>
         Connect Wallet
         </Button>
 
       <img
+      className={classes.mobilemenu}
         src="/assets/icons/menu.svg"
         alt=""
         onClick={() => setIsDrawerOpen(true)}

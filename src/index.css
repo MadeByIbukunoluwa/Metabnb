@@ -34,4 +34,7 @@ li {
         width:100vw;
        display: flex;
        justify-content: center;
+       --mobile:600px;
+       --tablet:800px;
+       --small--laptop:1200px;
 }

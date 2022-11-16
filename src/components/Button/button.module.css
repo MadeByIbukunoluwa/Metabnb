@@ -26,3 +26,14 @@
     -webkit-user-select: none;
     touch-action: manipulation;
 }
+
+@media screen and (max-width:1000px) {
+    .hero_maincontainer {
+        flex-direction: column;
+    }
+
+    .logo_container {
+        
+    }
+
+}

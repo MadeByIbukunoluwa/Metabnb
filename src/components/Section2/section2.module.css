@@ -11,10 +11,11 @@
     width: 100%;
     border: 1px solid red;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 .section2_maintext {
-    padding:100px;
+    padding:6.1em 3.05em;
     text-align: left;
     color:#fff;
 }
@@ -38,10 +39,17 @@ font-style: normal;
     font-size: 18px;
     line-height: 35px;
 }
-.section2_imagecontainer {
-    
-}
 
+ 
+.section2_imagescontainer {
+    max-width:100%;
+
+} 
+
+
+.section2_imagescontainer img {
+    transform: scale(0.7);
+}
 .section2_headertext { 
 
 
@@ -55,4 +63,16 @@ font-style: normal;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0em;
+}
+@media screen and (max-width:1000px) {
+    /* img {
+        transform: scale(0.7);
+    } */
+}
+@media screen and (max-width:800px) {
+    .section2_wrapper {
+        flex-direction: column;
+        
+    }
+
 }
