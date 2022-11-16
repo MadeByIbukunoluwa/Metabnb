@@ -1,0 +1,21 @@
+
+
+
+.filter_panel {
+display: flex;
+justify-content: space-between;
+} 
+
+.filter_options {
+display: flex;
+justify-content: space-between;
+width:80%;
+}
+
+
+
+.filter_button {
+display: flex;
+align-items: center;
+align-content: center;
+}

@@ -14,11 +14,15 @@
 .section1_cardscontainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
     /* grid-template-rows: repeat(1,2fr); */
     gap: 2em;
     border: 1px solid red;
 }
-
+.section1_cardscontainer img {
+    
+}
 
 .section1_maintext {
     padding-top: 39px;
@@ -30,7 +34,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1300px) {
     .section1_cardscontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

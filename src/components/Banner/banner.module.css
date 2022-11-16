@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width:1000px) {
-    img {
+.logo_container img { 
         transform: scale(0.7);
     }
    img:nth-child(3) {

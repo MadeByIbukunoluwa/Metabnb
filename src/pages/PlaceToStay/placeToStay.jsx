@@ -5,8 +5,9 @@ import Navbar from '../../components/Navbar/navbar'
 import { data } from '../../data/data'
 import classes from './placeToStay.module.css'
 import Card from '../../components/Card/card'
-// import Footer from '../../components/Footer/footer'
-
+import ImageGrid from '../../components/ImagesGrid/Imagesgrid'
+import Footer from '../../components/Footer/footer'
+import FilterPanel from './FilterPanel'
 
 
 
@@ -14,9 +15,10 @@ function PlaceToStay() {
   return (
     <>
       {/* <Navbar /> */}
-      <section className={classes.main_container}>
-        {/* <FilterPanel /> */}
-        {data.map(
+      <div className={classes.main_container}>
+        <FilterPanel />
+        <ImageGrid>
+          {data.map(
             ({
               imageno,
               name,
@@ -40,8 +42,9 @@ function PlaceToStay() {
               );
             }
           )}
-      </section>
-      {/* <Footer /> */}
+        </ImageGrid>
+        {/* <Footer /> */}
+      </div>
     </>
   );
 }

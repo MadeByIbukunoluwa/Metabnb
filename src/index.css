@@ -31,7 +31,7 @@ li {
     color: inherit;
 }
 #root {
-        width:100vw;
+       width:100vw;
        display: flex;
        justify-content: center;
        --mobile:600px;

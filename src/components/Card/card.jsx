@@ -13,7 +13,7 @@ function Card({ image,name,price, distance, availability,rating }) {
         <img src={image} alt="" />
       </div>
       <div className={classes.details}>
-        
+
         <div className={classes.text_container1}>
           <span className={classes.text_small}>{name}</span>
           <h1 className={classes.text_small}>{price}</h1>

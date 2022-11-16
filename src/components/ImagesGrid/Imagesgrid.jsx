@@ -12,7 +12,6 @@ function ImageGrid({children}) {
         <div className={classes.section1_maintext}>
           <p>Inspiration for the adventure</p>
         </div>
-
         <div className={classes.section1_cardscontainer}>
          {children}
         </div>

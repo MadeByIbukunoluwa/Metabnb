@@ -7,6 +7,8 @@ border: 1px solid #D7D7D7;
 min-height: 31.25remm;
 border-radius: 15px;
 padding:16px;
+width:100%;
+max-width:300px;
 }
 
 .details {
@@ -18,7 +20,9 @@ min-height: 3em;
 .card_container {
 
 }
-
+.image_container {
+    max-width: fit-content;
+}
 .text_small {
     font-style: normal;
     font-weight: 400;

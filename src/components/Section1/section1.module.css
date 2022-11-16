@@ -16,6 +16,8 @@ border:1px solid red;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     /* grid-template-rows: repeat(1,2fr); */
+    align-items: center;
+    /* justify-items: center; */
     gap:2em;
     border: 1px solid red;
 }
