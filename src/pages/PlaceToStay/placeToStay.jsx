@@ -14,8 +14,8 @@ import FilterPanel from './FilterPanel'
 function PlaceToStay() {
   return (
     <>
-      {/* <Navbar /> */}
       <div className={classes.main_container}>
+      <Navbar style = {{paddingTop: '2.879375em'}}/>
         <FilterPanel />
         <ImageGrid>
           {data.map(
@@ -43,7 +43,7 @@ function PlaceToStay() {
             }
           )}
         </ImageGrid>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

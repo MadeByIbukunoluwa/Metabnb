@@ -16,10 +16,19 @@ function FilterPanel() {
           return <li>{label}</li>;
         })}
       </ul>
-      <button className={classes.filter_button}>
-        <span>Location</span>
+      <select className={classes.filter_button}>
+        <option value="Location" selected disabled hidden>
+         Location
+        </option>
+        {options.map(({ value }) => {
+          return (
+            <>
+              <option>{value} </option>
+            </>
+          );
+        })}
         <img src="/public/assets/icons/setting-5.svg" alt="Filter Location" />
-      </button>
+      </select>
     </div>
   );
 }

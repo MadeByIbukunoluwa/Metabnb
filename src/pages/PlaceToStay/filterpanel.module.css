@@ -4,12 +4,15 @@
 .filter_panel {
 display: flex;
 justify-content: space-between;
+margin-top:2em;
 } 
 
 .filter_options {
 display: flex;
 justify-content: space-between;
 width:80%;
+flex-wrap: wrap;
+gap:2em;
 }
 
 

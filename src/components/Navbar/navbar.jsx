@@ -6,10 +6,10 @@ import {Link} from 'react-router-dom'
 import Button from '../Button/button';
 
 
-function Navbar () {
+function Navbar ({style}) {
     const { openModal, setIsDrawerOpen } = useContext(AppContext);
   return (
-    <nav className={classes.nav}>
+    <nav style = {style} className={classes.nav}>
       <div className={classes.logo}>
         <img
           src="/assets/icons/Metabnb-home-colored.svg"
