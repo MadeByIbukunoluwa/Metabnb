@@ -22,9 +22,6 @@ border:1px solid red;
 
 
 .section1_maintext {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     padding-top:39px;
     padding-bottom:39px;
      font-size: 48px;
@@ -38,6 +35,15 @@ border:1px solid red;
     .section1_cardscontainer {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+        }
+        
+}
+
+@media screen and (max-width:800px) {
+    .section1_cardscontainer {
+            display: grid;
+            grid-template-columns: repeat(1, 4fr);
+            align-items: center;
         }
         
 }

@@ -4,6 +4,7 @@
 
 .card_container {
 border: 1px solid #D7D7D7;
+min-height: 31.25remm;
 border-radius: 15px;
 padding:16px;
 }
@@ -41,4 +42,5 @@ min-height: 3em;
 
 .stars {
     display: flex;
+    padding-right: 0.35em;
 }

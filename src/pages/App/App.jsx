@@ -28,9 +28,9 @@ export const AppContext = createContext(()=> {})
                           <Sidebar/>
                           {showModal && <Modal />} 
                           {/* <Banner/> */}
-                          {/* <Section1/> */}
-                          <Section2/>
-                          <Footer/>
+                          <Section1/>
+                          {/* <Section2/> */}
+                          {/* <Footer/> */}
                     </div>
                 </AppContext.Provider>
               )

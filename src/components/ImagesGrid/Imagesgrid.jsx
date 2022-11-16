@@ -1,18 +1,11 @@
 
 
+import classes from  './imagesgrid.module.css'
 
 
 
 
-
-
-
-
-
-
-
-
-function Section1() {
+function ImageGrid({children}) {
   return (
     <section className={classes.section1_container}>
       <div className={classes.section1_wrapper}>
@@ -21,63 +14,11 @@ function Section1() {
         </div>
 
         <div className={classes.section1_cardscontainer}>
-          {data
-            .slice(4, 8)
-            .map(
-              ({
-                imageno,
-                name,
-                place,
-                price,
-                distance,
-                availability,
-                rating,
-              }) => {
-                return (
-                  <Card
-                    image={`/assets/images/image${imageno}.png`}
-                    name={name}
-                    place={place}
-                    price={price}
-                    distance={distance}
-                    availability={availability}
-                    rating={rating}
-                    key={Math.random() * 10000}
-                  />
-                );
-              }
-            )}
-
-          {data
-            .slice(0, 4)
-            .map(
-              ({
-                imageno,
-                name,
-                place,
-                price,
-                distance,
-                availability,
-                rating,
-              }) => {
-                return (
-                  <Card
-                    image={`/assets/images/image${imageno}.png`}
-                    name={name}
-                    place={place}
-                    price={price}
-                    distance={distance}
-                    availability={availability}
-                    rating={rating}
-                    key={Math.random() * 10000}
-                  />
-                );
-              }
-            )}
+         {children}
         </div>
       </div>
     </section>
   );
 }
 
-export default Section1;
+export default ImageGrid
