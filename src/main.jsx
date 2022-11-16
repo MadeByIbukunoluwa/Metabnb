@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from '../src/pages/App/App'
-import PlaceToStay from './pages/PlaceToStay/PlaceToStay';
+import PlaceToStay from './pages/PlaceToStay/placeToStay';
 import ErrorPage from "./error-page";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
