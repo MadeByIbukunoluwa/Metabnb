@@ -13,7 +13,7 @@
 .hero_textcontainer {
       padding-top: 1.875em;
       padding-bottom: 1.875em;
-      max-width: 690px;
+      max-width: 500px;
       width:100%;
 }
 .hero_maincontainer {
@@ -60,6 +60,7 @@
  }
 
  .hero_input input {
+   background:#fff ;
    border: none;
    line-height: 130%; 
    outline: none;
@@ -77,9 +78,6 @@
    cursor: pointer;
  }
 
- .image_container {
-
- }
 
 
 
@@ -96,19 +94,14 @@
         flex-direction: column;
       
    }
-      
-.image_container {
-   transform: scale(0.8);
-}
-
-   .navlinks {
-
-   }
  }
-/* 
 
-  .hero_maincontainer {
-     flex-direction: column;
-  }
+ @media screen and (max-width:800px) {
+   
 
-  .logo_container {} */
+ .image_container img {
+   max-width: 200px;
+   max-height: 200px;
+
+ }
+ }

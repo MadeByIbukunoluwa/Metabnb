@@ -24,7 +24,7 @@ export const AppContext = createContext(()=> {})
               return (
                 <AppContext.Provider value={{openModal,closeModal,isDrawerOpen,setIsDrawerOpen}}>    
                     <div className='app'>
-                          {/* <Hero/> */}
+                          <Hero/>
                           <Sidebar/>
                           {showModal && <Modal />} 
                           <Banner/>
