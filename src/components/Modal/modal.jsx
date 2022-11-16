@@ -10,12 +10,10 @@ const Backdrop = () => {
     )
 }
 
-const ModalOverlay = ({children}) => {
+const ModalOverlay = ({closeModal,children}) => {
     return (
-      <div className={classes.modal}>
-        <div className={classes.content}>
+      <div className={classes.modal} onClick= {closeModal}>
          {children}
-        </div>
       </div>
     );
 }
@@ -28,7 +26,7 @@ const Modal = () => {
     <Fragment>
       {React.createPortal(<Backdrop />, portalElement)}
       {React.createPortal(
-        <ModalOverlay>
+        <ModalOverlay closeModal = {closeModal}>
           <img
             src="/assets/icons/close-icon.svg"
             alt="modal"
