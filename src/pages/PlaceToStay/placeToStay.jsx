@@ -14,36 +14,38 @@ import FilterPanel from './FilterPanel'
 function PlaceToStay() {
   return (
     <>
-      <div className={classes.main_container}>
-      <Navbar style = {{paddingTop: '2.879375em'}}/>
-        <FilterPanel />
-        <ImageGrid>
-          {data.map(
-            ({
-              imageno,
-              name,
-              place,
-              price,
-              distance,
-              availability,
-              rating,
-            }) => {
-              return (
-                <Card
-                  image={`/assets/images/image${imageno}.png`}
-                  name={name}
-                  place={place}
-                  price={price}
-                  distance={distance}
-                  availability={availability}
-                  rating={rating}
-                  key={Math.random() * 10000}
-                />
-              );
-            }
-          )}
-        </ImageGrid>
-        <Footer />
+      <div>
+        <div className={classes.main_container}>
+          <Navbar style={{ paddingTop: "2.879375em" }} />
+          <FilterPanel />
+          <ImageGrid>
+            {data.map(
+              ({
+                imageno,
+                name,
+                place,
+                price,
+                distance,
+                availability,
+                rating,
+              }) => {
+                return (
+                  <Card
+                    image={`/assets/images/image${imageno}.png`}
+                    name={name}
+                    place={place}
+                    price={price}
+                    distance={distance}
+                    availability={availability}
+                    rating={rating}
+                    key={Math.random() * 10000}
+                  />
+                );
+              }
+            )}
+          </ImageGrid>
+        </div>
+          <Footer />
       </div>
     </>
   );
