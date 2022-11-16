@@ -7,7 +7,7 @@ function Section2 () {
   return (
     <section className={classes.section2_container}>
       <div className={classes.section2_wrapper}>
-        
+
         <div className={classes.section2_maintext}>
           <p className={classes.section2_headertext}>MetaBnb NFTs</p>
           <p className={classes.section2_subtext}>
