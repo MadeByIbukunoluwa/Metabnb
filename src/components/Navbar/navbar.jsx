@@ -31,7 +31,7 @@ function Navbar () {
         })}
       </div>
 
-      <Button className = {classes.walletbutton} style = {{}}onClick={openModal}>
+      <Button className = {classes.walletbutton} onClick={openModal}>
         Connect Wallet
         </Button>
 
