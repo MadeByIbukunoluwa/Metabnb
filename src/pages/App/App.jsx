@@ -27,10 +27,10 @@ export const AppContext = createContext(()=> {})
                           {/* <Hero/> */}
                           <Sidebar/>
                           {showModal && <Modal />} 
-                          {/* <Banner/> */}
+                          <Banner/>
                           <Section1/>
-                          {/* <Section2/> */}
-                          {/* <Footer/> */}
+                          <Section2/>
+                          <Footer/>
                     </div>
                 </AppContext.Provider>
               )

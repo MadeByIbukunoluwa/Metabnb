@@ -64,10 +64,14 @@ font-style: normal;
 }
 @media screen and (max-width:1000px) {
     .section2_wrapper {
-            flex-direction: column;
-        }
+       flex-direction: column;
+  }
 }
 @media screen and (max-width:800px) {
-   
+.section2_imagescontainer img {
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+    }
 
 }
