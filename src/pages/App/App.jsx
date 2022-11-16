@@ -17,6 +17,7 @@ export const AppContext = createContext(()=> {})
         function openModal () {
           console.log("opened")
             setShowModal(true) 
+            setIsDrawerOpen(false)
         }
         function closeModal () {
             setShowModal(false) 

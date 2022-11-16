@@ -10,22 +10,33 @@ const Backdrop = () => {
     )
 }
 
-const  Menu = () => {
-    const {closeModal} = useContext(AppContext)
+const ModalOverlay = ({children}) => {
     return (
-        <div className={classes.menu}>
-            <div>
-                <img src='/assets/icons/close-icon.svg' alt="modal" onClick={closeModal}/>
-            </div>
+      <div className={classes.modal}>
+        <div className={classes.content}>
+         {children}
         </div>
-    )
+      </div>
+    );
 }
 
+
+const portalElement = document.getElementById("menu");
 const Modal = () => {
+ const { closeModal } = useContext(AppContext);
   return (
     <Fragment>
-      {React.createPortal(<Backdrop/>, document.getElementById("menu"))}
-      {React.createPortal(<Menu />, document.getElementById("menu"))}
+      {React.createPortal(<Backdrop />, portalElement)}
+      {React.createPortal(
+        <ModalOverlay>
+          <img
+            src="/assets/icons/close-icon.svg"
+            alt="modal"
+            onClick={closeModal}
+          />
+        </ModalOverlay>,
+        portalElement
+      )}
     </Fragment>
   );
 }; 

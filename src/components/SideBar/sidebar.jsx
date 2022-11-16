@@ -23,7 +23,8 @@ function Sidebar() {
       style = {{
         position:'absolute',
         right:'30px',
-        top:'30px'
+        top:'30px',
+        cursor:'pointer',
       }}
        />
       <nav className={classes.sidebar_nav}>
